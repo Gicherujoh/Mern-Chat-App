@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+}
+
+.message-header{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px;
+}
+.message-title{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.user-container{
+    display: flex;
+   margin-top: 2px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-image{
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 40px;
+}
+.user-title{
+    margin-right: 10px;
+}
+
+.online-users{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 2px;
+    width: 200px;
+    
+    margin-bottom: 0px;
+    
+}
+.user-online-title{
+    margin: 10px 10px;
+}
+.online-user-pic{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.user-content{
+    display: flex;
+}
+.user-section{
+    width: 45%;
+}
+.message-section{
+    
+    margin-left: 10px;
+    width: 100%;
+
+}
+.message-container{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: fit-content;
+    max-width: 300px;
+    height: fit-content;
+     box-shadow: 0 2px 4px rgb(2, 2, 230);
+}
+.sender{
+    font-size: small;
+}
+.sender-img{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.sender-det{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+   align-items: center;
+}
+.sender-msg{
+    color: black;
+    font-weight: 400;
+    font-size: small;
+}
+.sender-message{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+.reciever{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 10px;
+}
+.message-reciever{ 
+    margin-top: 30px;
+    max-width: 300px;
+    margin-top: 10px;
+    height: fit-content;
+    box-shadow: 0 2px 4px green;
+}
+.input-message-section{
+    display: flex;
+    align-items: center;
+    margin-top: 550px;
+    margin-left: 20px;
+}
+.input{
+    max-width:800px;
+    height: 30px;
+    padding-left: 7px;
+    border-radius: 8px;
+    font-size: medium;
+}
+.input::placeholder{
+    font-size: large;
+}
+.send-icon{
+    margin-left: 10px;
+}
+@media  (min-width:800px){
+    .online-users{
+        width: 350px;
+    }
+    .message-container{
+        max-width: 400px;
+        height: fit-content;
+    }
+    .sender{
+        font-size: large;
+        font-weight: 500;
+    }
+    .sender-msg{
+      font-size: 16px;        
+    }
+    .message-reciever{
+        height: fit-content;
+        max-width: 400px;
+    }
+    .input{
+        max-width: 800px;
+    }
+}
+@media (max-width:320px){
+    .online-users{
+        width: 150px;
+    }
+    .message-container{
+        max-width: 300px;
+    }
+    .input{
+        width:800px;
+    }
+}

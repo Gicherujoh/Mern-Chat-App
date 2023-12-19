@@ -1,0 +1,20 @@
+.form-login{
+        display: flex;
+        flex-direction: column;
+        margin-top: 180px;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 330px;
+        margin-left: 30%;
+        box-shadow: 0 2px 8px rgb(5, 5, 5);
+}
+.login-error{
+        color: red;
+        margin-bottom: 5px;
+}
+@media (max-width:500px){
+  .form-login{
+        margin-left: 20%;
+  }
+}
